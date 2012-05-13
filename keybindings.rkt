@@ -7,3 +7,5 @@
      (send (send ed get-keymap) call-function command ed evt #t))))
 
 (rebind "alt:backspace" "backward-kill-word")
+(rebind "alt:left" "backward-word")
+(rebind "alt:right" "forward-word")
